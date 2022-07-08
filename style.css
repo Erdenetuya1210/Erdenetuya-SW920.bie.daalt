@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.big{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+.big .baruun{
+    background-color: white;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big .zvvn{
+    
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big .gol{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: brown;
+    display: flex;
+    z-index: 5;
+    gap: 10px;
+   margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#neg{
+    font-size: 55px;
+   color: rgb(223, 156, 156);
+}
+#hoyr{
+    font-size: 55px;
+    color: rgb(223, 156, 156);
+}
+#guraw{
+ color: rgb(223, 156, 156);
+    font-size: 55px;
+}
+.har{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.zhar{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(85, 85, 178);
+    font-size: 55px;
+}
+
